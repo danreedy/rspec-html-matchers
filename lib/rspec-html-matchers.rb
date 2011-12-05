@@ -71,6 +71,10 @@ module RSpec
           false
         end
       end
+      
+      def description
+        "have ##{@tag}"
+      end
 
       private
 
